@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#roadmap {
+    margin-top: 20px;
+}
+
+.roadmap-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.roadmap-item h3 {
+    margin-top: 0;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.roadmap-item h3:hover {
+    background-color: #45a049;
+}
+
+.roadmap-item .content {
+    display: none;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.roadmap-item .content li {
+    margin: 5px 0;
+}
